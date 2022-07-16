@@ -58,8 +58,7 @@ local Settings = {
         AIRSHOT = false,
 
         NOTIF = true,
-
-        AUTOPRED = true,
+        AUTOPRED = false,
 
         FOV = math.huge,
 
@@ -73,7 +72,7 @@ local SelectedPart = "HumanoidRootPart"
 
 local Prediction = true
 
-local PredictionValue = 0.1225
+local PredictionValue = 0.1690
 
     local AnchorCount = 0
 
@@ -85,7 +84,7 @@ local PredictionValue = 0.1225
 
     local enabled = false
 
-    local accomidationfactor = 0.115
+    local accomidationfactor = 0.127
 
     local mouse = game.Players.LocalPlayer:GetMouse()
 
