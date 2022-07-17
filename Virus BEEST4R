@@ -21,22 +21,7 @@ Duration = 3;
 
 });
 
-local savedpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ignored.Shop["[Double-Barrel SG] - $1400"].Head.CFrame
-		wait(0.35)
-		fireclickdetector(game:GetService("Workspace").Ignored.Shop["[Double-Barrel SG] - $1400"].ClickDetector)
-		wait(.1)
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = savedpos
 
-wait(0.5)
-tab:Button("Revolver [$1,300]", function()
-local savedpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ignored.Shop["[Revolver] - $1300"].Head.CFrame
-		wait(0.35)
-		fireclickdetector(game:GetService("Workspace").Ignored.Shop["[Revolver] - $1300"].ClickDetector)
-		wait(.1)
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = savedpos
-		
  game.StarterGui:SetCore("SendNotification", {
     Title = "notifications";
     Text = "Lock Loaded";
